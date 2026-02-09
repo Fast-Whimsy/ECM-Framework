@@ -84,7 +84,7 @@ irreducibility axioms
 No downstream model may contradict these structures.
 
 ACKNOWLEDGMENT
-ECM originated from a question raised by Dr. Martha Nanette Harrell, Phd Information System Science, whose early inquiry initiated the publication sequence and collaborative arc.
+ECM originated from a question raised by Dr. Martha Nanette Harrell, Ph.D., Information System Science, whose early inquiry initiated the publication sequence and collaborative arc.
 
 DOI
 This repository is prepared for DOI minting via Zenodo. Once the CMF DOI is issued, ECM will be minted as the root DOI for the lineage.
