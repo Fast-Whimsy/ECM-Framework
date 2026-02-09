@@ -50,7 +50,7 @@ REPOSITORY STRUCTURE
 This repository contains the canonical ECM artifacts.
 
 manuscript
-Contains ECM_v1_manuscript.md, the full manuscript.
+Contains ECM\_v1\_manuscript.md, the full manuscript.
 
 diagrams
 Contains the tri-lens diagram and related visual references.
@@ -58,7 +58,7 @@ Contains the tri-lens diagram and related visual references.
 axioms
 Contains the formal axioms, operators, and definitions.
 
-collapse_modes
+collapse\_modes
 Contains descriptions of the three collapse modes.
 
 lineage
@@ -84,7 +84,7 @@ irreducibility axioms
 No downstream model may contradict these structures.
 
 ACKNOWLEDGMENT
-ECM originated from a question raised by Dr. Nanette Harrel, whose early inquiry initiated the publication sequence and collaborative arc.
+ECM originated from a question raised by Dr. Martha Nanette Harrell, Phd Information System Science, whose early inquiry initiated the publication sequence and collaborative arc.
 
 DOI
 This repository is prepared for DOI minting via Zenodo. Once the CMF DOI is issued, ECM will be minted as the root DOI for the lineage.
@@ -104,3 +104,4 @@ future researcher onboarding
 integration with Fast Whimsy’s long-term research program
 
 ECM is the seed crystal of the coherence lineage.
+
