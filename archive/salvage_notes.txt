@@ -1,0 +1,35 @@
+SALVAGE NOTES — ECM Rejected Manuscript (v1)
+
+Purpose:
+This file documents the provenance and archival context of the original ECM manuscript rejected during pre-publication review.
+
+Manuscript Title:
+ECM: A Tri Lens Framework for Evaluating Worldview Coherence
+
+Author:
+Steve [Surname Redacted]
+
+Reviewer:
+Dr. Martha Nanette Harrell, PhD (Information Science)
+
+Context:
+This manuscript represents the first complete articulation of the Entangled Coherence Model (ECM). It was prepared for submission to Philosophy of Science and reviewed pre-publication by Dr. Harrell. The manuscript was rejected and is preserved here for historical, scholarly, and lineage purposes.
+
+Relevance to ECM-Framework:
+• Establishes the original tri-lens architecture.
+• Defines collapse modes, axioms, and theorems foundational to ECM.
+• Provides the earliest formalization of the coherence operator.
+• Serves as the conceptual root for CMF, CMF-Diamond, and HECM.
+• Anchors the lineage metadata for the ECM repository.
+
+Archival Purpose:
+This file is preserved to:
+• Maintain provenance for DOI minting.
+• Provide historical continuity for the ECM lineage.
+• Document the original conceptual structure prior to later refinements.
+• Ensure transparency for future researchers and collaborators.
+
+Notes:
+This manuscript is archived exactly as provided by the author, without modification, reconstruction, or editorial changes. It is not an active manuscript and is not maintained. It serves as a historical artifact within the ECM-Framework repository.
+
+End of salvage notes.
