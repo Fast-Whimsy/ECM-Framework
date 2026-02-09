@@ -1,0 +1,27 @@
+CITATION FOR ECM-FRAMEWORK (FLATTENED VERSION)
+
+Title: ECM-Framework: The Entangled Coherence Model (ECM) — A Tri-Lens Structural Framework for Evaluating Worldview Coherence
+Author: Steve (Harry Steven Thomas)
+Organization: Fast Whimsy
+Version: 1.0.0
+DOI: 10.5281/zenodo.18532478
+Publication Year: 2025
+Publisher: Zenodo
+
+RECOMMENDED CITATION (PLAIN TEXT)
+Steve (Harry Steven Thomas). ECM-Framework: The Entangled Coherence Model (ECM) — A Tri-Lens Structural Framework for Evaluating Worldview Coherence. Zenodo. DOI: 10.5281/zenodo.18532478.
+
+RECOMMENDED CITATION (BIBTEX)
+@software{ecm_framework_2025,
+  author       = {Steve (Harry Steven Thomas)},
+  title        = {ECM-Framework: The Entangled Coherence Model (ECM) — A Tri-Lens Structural Framework for Evaluating Worldview Coherence},
+  year         = {2025},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.18532478},
+  url          = {https://doi.org/10.5281/zenodo.18532478}
+}
+
+NOTES
+This citation file provides the authoritative reference for the ECM-Framework repository. ECM is the root node of the coherence lineage and establishes the tri-lens geometry, collapse modes, coherence operator, mutual constraint relations, and irreducibility axioms inherited by all downstream frameworks (CMF, CMF-Diamond, HECM). Researchers citing ECM should use the DOI listed above to ensure stable, archival reference to the canonical version of the framework.
+
+END OF DOCUMENT
