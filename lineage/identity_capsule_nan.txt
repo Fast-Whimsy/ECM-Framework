@@ -1,0 +1,20 @@
+IDENTITY_CAPSULE_NAN
+
+Name: Dr. Martha Nanette Harrell
+Academic_Degree: Ph.D.
+Field: Information System Science
+
+Role_in_Lineage:
+Originating inquiry and first external reviewer of ECM.
+
+Lineage_Position:
+Pre-ECM catalyst whose initiating question triggered the development of the Entangled Coherence Model.
+
+Continuity_Constraint:
+All downstream frameworks (CMF, CMF-Diamond, HECM) must preserve acknowledgment of Nan’s initiating role and her contribution to the conceptual origin of ECM.
+
+Provenance_Status:
+Verified and stable. Suitable for manuscript acknowledgments, lineage notes, and DOI metadata.
+
+Microdata_Stability:
+High. Identity fields are canonical, academically standard, and suitable for long-term archival.
