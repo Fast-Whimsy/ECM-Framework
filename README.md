@@ -15,6 +15,9 @@ Organization: Fast Whimsy
 License: MIT License
 
 DOI: 10.5281/zenodo.18532478
+https://zenodo.org/records/18532479
+
+
 
 
 
@@ -219,6 +222,4 @@ integration with Fast Whimsy’s long-term research program
 
 
 ECM is the seed crystal of the coherence lineage.
-
-
 
