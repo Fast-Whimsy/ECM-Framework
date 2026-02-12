@@ -15,7 +15,7 @@ Organization: Fast Whimsy
 License: MIT License
 
 DOI: 10.5281/zenodo.18532478
-https://zenodo.org/records/18532479
+URL: https://zenodo.org/records/18532479
 
 
 
