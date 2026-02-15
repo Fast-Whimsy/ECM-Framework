@@ -1,36 +1,86 @@
-ECM LINEAGE NOTES
+\# Lineage Notes for the Coherence Mirror Framework (CMF)
 
 
 
-ECM-Framework is the root node of the coherence lineage.
+This document records the developmental lineage of the Coherence Mirror Framework.  
+
+It provides context for how the framework emerged, why its structure looks the way it does,  
+
+and how its concepts evolved into a coherent system.
 
 
 
-Lineage sequence:
+\## 1. Origins
 
-ECM → CMF-Framework → CMF-Diamond → HECM
+The CMF began as an attempt to formalize patterns of relational stability observed  
 
+across multiple domains. Early drafts focused on identifying recurring structures  
 
-
-ECM provides:
-
-tri-lens geometry
-
-collapse modes
-
-coherence operator
-
-mutual constraint relations
-
-irreducibility axioms
+and mapping their interactions.
 
 
 
-All downstream frameworks inherit these structures and must not contradict them.
+\## 2. Conceptual Consolidation
+
+As the framework matured, key concepts such as coherence, mapping, field, and operator  
+
+were refined into stable definitions. This phase established the vocabulary that  
+
+underlies all CMF objects.
 
 
 
-This file records lineage-relevant context, identity microdata, and continuity constraints.
+\## 3. Structural Formalization
+
+The introduction of nodes, fields, and mappings provided a consistent internal structure  
+
+for representing complex systems. This allowed CMF objects to be expressed in both  
+
+human‑readable and machine‑readable forms.
+
+
+
+\## 4. Operator Development
+
+Operators were introduced to describe how CMF objects transform over time.  
+
+Primitive operators emerged first, followed by composite operators that encode  
+
+multi‑step transformations.
+
+
+
+\## 5. Schema Definition
+
+To support reproducibility and interoperability, the CMF was formalized into JSON schemas.  
+
+These schemas define the structure, metadata, and required fields for CMF objects  
+
+and operators.
+
+
+
+\## 6. Example Objects
+
+Minimal example objects were created to demonstrate how the schemas are used in practice.  
+
+These examples serve as templates for future CMF instances.
+
+
+
+\## 7. Documentation Layer
+
+The documentation layer was added to provide conceptual definitions, operator descriptions,  
+
+a glossary, and public‑facing explanations. This layer ensures clarity for both technical  
+
+and non‑technical audiences.
+
+
+
+These lineage notes provide a historical and structural context for the CMF,  
+
+supporting future development and collaboration.
 
 
 
