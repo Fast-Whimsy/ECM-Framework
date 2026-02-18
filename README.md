@@ -2,6 +2,10 @@
 
 \### Entangled Coherence Model — Root Node of the Coherence Lineage
 
+\[!\[ECM CI](https://github.com/Fast-Whimsy/ECM-Framework/actions/workflows/ci.yml/badge.svg)](https://github.com/Fast-Whimsy/ECM-Framework/actions)
+
+
+
 ECM Version: v0.1.0
 
 
