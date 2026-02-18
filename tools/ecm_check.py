@@ -13,10 +13,20 @@ REQUIRED_FILES = [
     "lineage/lineage_notes.md",
 ]
 
-README_VERSION_PATTERN = r"ECM Version:\s*v\d+\.\d+\.\d+"
+# Robust patterns (allow leading whitespace)
+README_VERSION_PATTERN = r"^\s*ECM Version:\s*v\d+\.\d+\.\d+"
 README_CI_BADGE_PATTERN = r"actions/workflows/ci\.yml/badge\.svg"
-README_LINEAGE_SECTION_PATTERN = r"^##\s+Lineage\b"
-README_INVARIANTS_SECTION_PATTERN = r"^##\s+ECM Invariants\b"
+README_LINEAGE_SECTION_PATTERN = r"^\s*##\s+Lineage\b"
+README_INVARIANTS_SECTION_PATTERN = r"^\s*##\s+ECM Invariants\b"
+
+ZERO_WIDTH = [
+    "\ufeff",  # BOM
+    "\u200b",  # zero-width space
+    "\u200c",  # zero-width non-joiner
+    "\u200d",  # zero-width joiner
+    "\u2060",  # word joiner
+    "\u00a0",  # non-breaking space
+]
 
 def fail(msg):
     print(f"[ECM CHECK FAILED] {msg}")
@@ -37,33 +47,47 @@ def check_ci():
     if not os.path.isfile(ci_path):
         fail("Missing CI workflow at .github/workflows/ci.yml")
 
-def load_readme():
+def load_and_normalize_readme():
     with open("README.md", "r", encoding="utf-8") as f:
-        return f.read()
+        content = f.read()
 
-def check_readme_version(content: str):
-    if not re.search(README_VERSION_PATTERN, content):
+    # Strip BOM and zero-width characters
+    for zw in ZERO_WIDTH:
+        content = content.replace(zw, "")
+
+    # Normalize line endings
+    content = content.replace("\r\n", "\n").replace("\r", "\n")
+
+    # Remove trailing spaces
+    content = "\n".join(line.rstrip() for line in content.split("\n"))
+
+    return content
+
+def check_readme_version(content):
+    if not re.search(README_VERSION_PATTERN, content, flags=re.MULTILINE):
         fail("README.md missing ECM version declaration (e.g., 'ECM Version: v0.1.0')")
 
-def check_readme_ci_badge(content: str):
+def check_readme_ci_badge(content):
     if not re.search(README_CI_BADGE_PATTERN, content):
         fail("README.md missing CI badge pointing to .github/workflows/ci.yml")
 
-def check_readme_lineage_section(content: str):
+def check_readme_lineage_section(content):
     if not re.search(README_LINEAGE_SECTION_PATTERN, content, flags=re.MULTILINE):
         fail("README.md missing '## Lineage' section")
 
-def check_readme_invariants_section(content: str):
+def check_readme_invariants_section(content):
     if not re.search(README_INVARIANTS_SECTION_PATTERN, content, flags=re.MULTILINE):
         fail("README.md missing '## ECM Invariants' section")
 
 def main():
     print("[ECM CHECK] Validating repository structure and README invariants...")
+
     check_dirs()
     check_files()
     check_ci()
 
-    readme = load_readme()
+    readme = load_and_normalize_readme()
+
     check_readme_version(readme)
     check_readme_ci_badge(readme)
     check_readme_lineage_section(readme)
