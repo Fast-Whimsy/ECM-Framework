@@ -1,6 +1,7 @@
 \# ECM‑Framework
 
 \### Entangled Coherence Model — Root Node of the Coherence Lineage
+ECM Version: v0.1.0
 
 
 
@@ -112,11 +113,11 @@ Each collapse mode is defined by exclusive satisfaction of a single lens:
 
 
 
-\- \*\*Reductionism\*\* — P only  
+\- \*\*Reductionism\*\* — P only
 
-\- \*\*Abstraction Drift\*\* — M only  
+\- \*\*Abstraction Drift\*\* — M only
 
-\- \*\*Existential Collapse\*\* — E only  
+\- \*\*Existential Collapse\*\* — E only
 
 
 
@@ -129,6 +130,4 @@ The three lenses exhaust the interpretive space.
 \### 5. Non‑Hierarchy
 
 No lens is privileged over another.
-
-
 
