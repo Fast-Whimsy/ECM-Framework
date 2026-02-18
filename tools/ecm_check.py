@@ -5,7 +5,7 @@ import re
 REQUIRED_DIRS = [
     "docs",
     "lineage",
-    ".github/workflows"
+    ".github/workflows",
 ]
 
 REQUIRED_FILES = [
@@ -14,6 +14,9 @@ REQUIRED_FILES = [
 ]
 
 README_VERSION_PATTERN = r"ECM Version:\s*v\d+\.\d+\.\d+"
+README_CI_BADGE_PATTERN = r"actions/workflows/ci\.yml/badge\.svg"
+README_LINEAGE_SECTION_PATTERN = r"^##\s+Lineage\b"
+README_INVARIANTS_SECTION_PATTERN = r"^##\s+ECM Invariants\b"
 
 def fail(msg):
     print(f"[ECM CHECK FAILED] {msg}")
@@ -34,19 +37,39 @@ def check_ci():
     if not os.path.isfile(ci_path):
         fail("Missing CI workflow at .github/workflows/ci.yml")
 
-def check_readme_version():
+def load_readme():
     with open("README.md", "r", encoding="utf-8") as f:
-        content = f.read()
+        return f.read()
+
+def check_readme_version(content: str):
     if not re.search(README_VERSION_PATTERN, content):
         fail("README.md missing ECM version declaration (e.g., 'ECM Version: v0.1.0')")
 
+def check_readme_ci_badge(content: str):
+    if not re.search(README_CI_BADGE_PATTERN, content):
+        fail("README.md missing CI badge pointing to .github/workflows/ci.yml")
+
+def check_readme_lineage_section(content: str):
+    if not re.search(README_LINEAGE_SECTION_PATTERN, content, flags=re.MULTILINE):
+        fail("README.md missing '## Lineage' section")
+
+def check_readme_invariants_section(content: str):
+    if not re.search(README_INVARIANTS_SECTION_PATTERN, content, flags=re.MULTILINE):
+        fail("README.md missing '## ECM Invariants' section")
+
 def main():
-    print("[ECM CHECK] Validating repository structure...")
+    print("[ECM CHECK] Validating repository structure and README invariants...")
     check_dirs()
     check_files()
     check_ci()
-    check_readme_version()
-    print("[ECM CHECK PASSED] Repository satisfies ECM structural requirements.")
+
+    readme = load_readme()
+    check_readme_version(readme)
+    check_readme_ci_badge(readme)
+    check_readme_lineage_section(readme)
+    check_readme_invariants_section(readme)
+
+    print("[ECM CHECK PASSED] Repository satisfies ECM structural and README invariants.")
 
 if __name__ == "__main__":
     main()
