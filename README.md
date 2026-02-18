@@ -22,10 +22,7 @@ This repository is an example of an \*\*Active Manuscript\*\*:
 
 a scholarly artifact that is both a conceptual model and an executable cognitive architecture.
 
-
 ## Lineage
-
-
 
 This repository is the root node of the Fast‑Whimsy lineage.
 
@@ -37,7 +34,7 @@ It defines the ECM layer and propagates structural invariants to all descendant 
 
 → CMF‑Framework (node)
 
- 	→ CMF‑Diamond (branch)
+  → CMF‑Diamond (branch)
 
 → HECM (node)
 
