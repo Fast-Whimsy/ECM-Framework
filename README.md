@@ -6,7 +6,7 @@
 
 
 
-ECM Version: v0.1.0
+ECM Version: v0.1.0 - v0.2.0
 
 
 
@@ -26,15 +26,23 @@ a scholarly artifact that is both a conceptual model and an executable cognitive
 
 \## Lineage
 
-ECM‑Framework (root)
+
+
+This repository is the root node of the Fast‑Whimsy lineage.  
+
+It defines the ECM layer and propagates structural invariants to all descendant repositories.
+
+&nbsp;
+
+→ ECM‑Framework (root)
 
 → CMF‑Framework (node)
 
+&nbsp;	→ CMF‑Diamond (branch)
+
 → HECM (node)
 
-→ CMF‑Diamond (branch)
-
-→ HECM‑Diamond (branch)
+&nbsp;	→ HECM‑Diamond (branch)
 
 
 
