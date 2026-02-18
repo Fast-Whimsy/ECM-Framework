@@ -2,7 +2,7 @@
 
 
 
-This document records the developmental lineage of the Coherence Mirror Framework.
+This document records the developmental lineage of the Holographic Entangled Coherence Model.
 
 It provides context for how the framework emerged, why its structure looks the way it does,
 
@@ -64,7 +64,7 @@ and operators.
 
 Minimal example objects were created to demonstrate how the schemas are used in practice.
 
-These examples serve as templates for future CMF instances.
+These examples serve as templates for future developmental instances of Fast Whimsy's world view frameworks.
 
 
 
