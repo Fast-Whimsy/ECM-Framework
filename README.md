@@ -1,6 +1,7 @@
 \# ECM‑Framework
 
 \### Entangled Coherence Model — Root Node of the Coherence Lineage
+
 ECM Version: v0.1.0
 
 
