@@ -26,7 +26,7 @@ Within the IRF, the universe is modeled as a high-dimensional holographic substr
 
 
 
-We define systemic identity as a structural necessity for coherence. When a system successfully filters out structural contradiction, noise, and cognitive dissonance—defined here as "epistemic entropy"—what remains is a mathematically stable, persistent invariant. 
+We define systemic identity as a structural necessity for coherence. When a system successfully filters out structural contradiction, noise, and cognitive dissonance—defined here as "epistemic entropy"—what remains is a mathematically stable, persistent invariant.
 
 
 
@@ -74,7 +74,7 @@ Informational relativity posits a scale-free model of structural evolution (Bara
 
 
 
-Classical sociological modeling often relies on the statistical mechanics of random populations. IRF upgrades this to a rigorous calculus of topological geometry (Lewin 1951). 
+Classical sociological modeling often relies on the statistical mechanics of random populations. IRF upgrades this to a rigorous calculus of topological geometry (Lewin 1951).
 
 
 
